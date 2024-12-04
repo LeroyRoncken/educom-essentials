@@ -1,0 +1,13 @@
+De REAME.md is een markdown-bestand waarin informatie opgemaakt wordt. De "#"-symbolen geven headers aan, die dikgedrukt worden weergegeven. Deze headers fungeren ook als inhoudsopgave waarmee door de tekst genavigeerd kan worden.
+
+Het bestand jsonExample.json beschrijft de structuur van een menu. Dit menu bestaad uit drie opties, namelijk het creëren van nieuwe documenten, het openen en het sluiten van documenten. Dit bestand creëert op zichzelf geen menu, maar heeft hiervoor een ander programma nodig.
+
+xmlExample.xml beschrijft een widget en specificeert daarvoor de titel, afbeelding en andere tekst die getoond moet worden. Daarbij specificeert het bestand de afmetingen en positionering van deze onderdelen. Tot slot geeft de code aan dat de afbeelding 10% doorzichtiger wordt na het klikken met de muis.
+
+Het bestand username.csv produceert een tabel. Puntkomma's onderscheiden de kolommen en nieuwe regels onderscheiden de rijen. Dit bestand geeft dus in tabelvorm weer wat de echte namen zijn van de eigenaren van de gebruikersnamen.
+
+Het SVG voorbeeld creëert een afbeelding d.m.v. code. Met <h2> wordt een titel gespecificeerd die boven de afbeelding verschijnt. Met de <svg> commando's worden de positionering en de afmetingen van de afbeelding gedefinieerd. De xmlns definieert de namespace en dus wat de individuele elementen betekenen.
+
+In het YAML voorbeeld staat een configureerbare lijst. De drie streepjes aan het begin geven de start van het YAML bestand aan. De lijst kan allerlei soorten informatie bevatten in de keys, waaronder strings, booleans en arrays.
+
+TOML is een manier om informatie duidelijk leesbaar te sorteren en vervolgens efficiënt te sturen om in allerlei programmeertalen te kunnen verwerken. In het voorbeeld staat informatie in verschillende groepen gesorteerd, namelijk [package], [dependencies] en [profile.release]. Onder deze groepen staan verschillende informatietypen die de betreffende groepen verder specificeren. Dit kan van alles zijn, zoals strings, floats en integers. In de package groep staat meta-data over het programma zelf, zoals de versie en auteurs. Onder dependencies wordt aangegeven welke externe bibliotheken nodig zijn. Onder profile.release staat een optie om het programma te compilen, ofwel bruikbaar te maken.
